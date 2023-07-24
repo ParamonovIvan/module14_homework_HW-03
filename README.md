@@ -28,10 +28,10 @@ XML<br>
 JS-объект<br><br>
 
 {<br>
-  &nbsp; &nbsp; list: &#91;<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;{ name: 'Ivan Ivanov', age: 35, prof: 'teacher', lang: 'en' },<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;{ name: 'Петр Петров', age: 58, prof: 'driver', lang: 'ru' },<br>
-  &#93;<br>
+&nbsp;&nbsp; list: &#91;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; { name: 'Ivan Ivanov', age: 35, prof: 'teacher', lang: 'en' },<br>
+&nbsp;&nbsp;&nbsp;&nbsp; { name: 'Петр Петров', age: 58, prof: 'driver', lang: 'ru' },<br>
+&nbsp;&nbsp; &#93;<br>
 }<br><br>
 
 
