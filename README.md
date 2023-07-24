@@ -25,7 +25,7 @@ XML<br>
   &nbsp;&nbsp; &lt;/student&gt;<br>
 &lt;/list&gt;<br><br>
 
-JS-объект<br><br>
+JS-объект<br>
 
 {<br>
 &nbsp;&nbsp; list: &#91;<br>
@@ -39,7 +39,7 @@ JS-объект<br><br>
 
 Вам дана заготовка и результат, который вы должны получить. Ваша задача — написать код, который будет преобразовывать JSON в JS-объект и выводить его в консоль.
 
-JSON<br><br>
+JSON<br>
 
 {<br>
 &nbsp;&nbsp; "list": &#91;<br>
@@ -56,7 +56,7 @@ JSON<br><br>
 &nbsp;&nbsp; &#93;<br>
 }<br><br>
 
-JS-объект<br><br>
+JS-объект<br>
 
 {<br>
 &nbsp;&nbsp; list: &#91;<br>
