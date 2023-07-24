@@ -7,27 +7,28 @@
 XML<br><br>
 
 &lt;list&gt;<br>
-  &lt;student&gt;<br>
-    &lt;name lang="en"&gt;<br>
-     &lt;first&gt;Ivan&lt;/first&gt;<br>
-      &lt;second&gt;Ivanov&lt;/second&gt;<br>
-    &lt;/name&gt;<br>
-    &lt;age&gt;35&lt;/age&gt;<br>
-    &lt;prof&gt;teacher&lt;/prof&gt;<br>
-  &lt;/student&gt;<br>
-  &lt;student&gt;<br>
-    &lt;name lang="ru"&gt;<br>
-      &lt;first&gt;Петр&lt;/first&gt;<br>
-      &lt;second&gt;Петров&lt;/second&gt;<br>
-    &lt;/name&gt;<br>
-    &lt;age>58&lt;/age&gt;<br>
-    &lt;prof>driver&lt;/prof&gt;<br>
-  &lt;/student&gt;<br>
-&lt;/list&gt;<br>
+  &nbsp;&nbsp;&lt;student&gt;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&lt;name lang="en"&gt;<br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;first&gt;Ivan&lt;/first&gt;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;second&gt;Ivanov&lt;/second&gt;<br>
+   &nbsp;&nbsp;&nbsp;&nbsp; &lt;/name&gt;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&lt;age&gt;35&lt;/age&gt;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&lt;prof&gt;teacher&lt;/prof&gt;<br>
+ &nbsp;&nbsp; &lt;/student&gt;<br>
+ &nbsp;&nbsp; &lt;student&gt;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&lt;name lang="ru"&gt;<br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;first&gt;Петр&lt;/first&gt;<br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;second&gt;Петров&lt;/second&gt;<br>
+   &nbsp;&nbsp;&nbsp;&nbsp; &lt;/name&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;  &lt;age>58&lt;/age&gt;<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;  &lt;prof>driver&lt;/prof&gt;<br>
+  &nbsp;&nbsp;&lt;/student&gt;<br>
+&lt;/list&gt;<br><br>
+
 JS-объект<br><br>
 
 {<br>
-  list: [<br>
+  &nbsp; &nbsp; list: [<br>
     { name: 'Ivan Ivanov', age: 35, prof: 'teacher', lang: 'en' },<br>
     { name: 'Петр Петров', age: 58, prof: 'driver', lang: 'ru' },<br>
   ]<br>
