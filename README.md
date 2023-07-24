@@ -8,7 +8,7 @@ XML<br>
 
 &lt;list&gt;<br>
   &nbsp;&nbsp;&lt;student&gt;<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&lt; name lang="en"&gt;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; &lt;name lang="en"&gt;<br>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;first&gt;Ivan&lt;/first&gt;<br>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;second&gt;Ivanov&lt;/second&gt;<br>
     &nbsp;&nbsp;&nbsp;&nbsp; &lt;/name&gt;<br>
@@ -28,10 +28,10 @@ XML<br>
 JS-объект<br><br>
 
 {<br>
-  &nbsp; &nbsp; list: [<br>
-    { name: 'Ivan Ivanov', age: 35, prof: 'teacher', lang: 'en' },<br>
-    { name: 'Петр Петров', age: 58, prof: 'driver', lang: 'ru' },<br>
-  ]<br>
+  &nbsp; &nbsp; list: &#91;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;{ name: 'Ivan Ivanov', age: 35, prof: 'teacher', lang: 'en' },<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;{ name: 'Петр Петров', age: 58, prof: 'driver', lang: 'ru' },<br>
+  &#93;<br>
 }<br><br>
 
 
