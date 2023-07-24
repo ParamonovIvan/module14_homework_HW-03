@@ -36,3 +36,31 @@ JS-объект<br><br>
 
 
 <b>Задание 2</b><br>
+
+Вам дана заготовка и результат, который вы должны получить. Ваша задача — написать код, который будет преобразовывать JSON в JS-объект и выводить его в консоль.
+
+JSON<br><br>
+
+{<br>
+&nbsp;&nbsp; "list": &#91;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "name": "Petr",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "age": "20",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "prof": "mechanic"<br>
+&nbsp;&nbsp;&nbsp;&nbsp; },<br>
+&nbsp;&nbsp;&nbsp;&nbsp; {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "name": "Vova",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "age": "60",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "prof": "pilot"<br>
+&nbsp;&nbsp;&nbsp;&nbsp; }<br>
+&nbsp;&nbsp; &#93;<br>
+}<br><br>
+
+JS-объект<br><br>
+
+{<br>
+&nbsp;&nbsp; list: &#91;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; { name: 'Petr', age: 20, prof: 'mechanic' },<br>
+&nbsp;&nbsp;&nbsp;&nbsp; { name: 'Vova', age: 60, prof: 'pilot' },<br>
+&nbsp;&nbsp; &#93;<br>
+}
