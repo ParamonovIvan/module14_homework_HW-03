@@ -7,52 +7,35 @@
 XML
 
 ``` <list>
-
-  &nbsp;&nbsp; <student>
-  
-    &nbsp;&nbsp;&nbsp;&nbsp; <name lang="en">
-    
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <first>Ivan</first>
-      
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <second>Ivanov</second>
-      
-    &nbsp;&nbsp;&nbsp;&nbsp; </name>
-    
-    &nbsp;&nbsp;&nbsp;&nbsp; <age>35</age>
-    
-    &nbsp;&nbsp;&nbsp;&nbsp; <prof>teacher</prof>
-    
-  &nbsp;&nbsp; </student>
-  
-  &nbsp;&nbsp; <student>
-  
-    &nbsp;&nbsp;&nbsp;&nbsp; <name lang="ru">
-    
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <first>Петр</first>
-      
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <second>Петров</second>
-      
-    &nbsp;&nbsp;&nbsp;&nbsp; </name>
-    
-    &nbsp;&nbsp;&nbsp;&nbsp; <age>58</age>
-    
-    &nbsp;&nbsp;&nbsp;&nbsp; <prof>driver</prof>
-    
-  &nbsp;&nbsp; </student>
-  
+  <student>  
+    <name lang="en">    
+      <first>Ivan</first>
+      <second>Ivanov</second>      
+    </name>    
+    <age>35</age>    
+    <prof>teacher</prof>
+  </student>  
+  <student>  
+    <name lang="ru">    
+      <first>Петр</first>      
+      <second>Петров</second>      
+    </name>    
+    <age>58</age>    
+    <prof>driver</prof>    
+  </student>  
 </list> ```
 
 JS-объект
 
 {
 
-&nbsp;&nbsp; list: &#91;
+  list: [
 
-&nbsp;&nbsp;&nbsp;&nbsp; { name: 'Ivan Ivanov', age: 35, prof: 'teacher', lang: 'en' },
+    { name: 'Ivan Ivanov', age: 35, prof: 'teacher', lang: 'en' },
 
-&nbsp;&nbsp;&nbsp;&nbsp; { name: 'Петр Петров', age: 58, prof: 'driver', lang: 'ru' },
+    { name: 'Петр Петров', age: 58, prof: 'driver', lang: 'ru' },
 
-&nbsp;&nbsp; &#93;
+  ];
 
 }
 
