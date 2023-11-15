@@ -27,7 +27,7 @@ XML
 
 JS-объект
 
-{
+``` {
 
   list: [
 
@@ -37,7 +37,7 @@ JS-объект
 
   ];
 
-}
+} ```
 
 ### Задание 2
 
@@ -45,47 +45,29 @@ JS-объект
 
 JSON
 
-{
-
-&nbsp;&nbsp; "list": &#91;
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "name": "Petr",
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "age": "20",
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "prof": "mechanic"
-
-&nbsp;&nbsp;&nbsp;&nbsp; },
-
-&nbsp;&nbsp;&nbsp;&nbsp; {
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "name": "Vova",
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "age": "60",
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "prof": "pilot"
-
-&nbsp;&nbsp;&nbsp;&nbsp; }
-
-&nbsp;&nbsp; &#93;
-
-}
+``` {
+ "list": [
+  {
+   "name": "Petr",
+   "age": "20",
+   "prof": "mechanic"
+  },
+  {
+   "name": "Vova",
+   "age": "60",
+   "prof": "pilot"
+  }
+ ]
+} ```
 
 JS-объект
 
-{
-
-&nbsp;&nbsp; list: &#91;
-
-&nbsp;&nbsp;&nbsp;&nbsp; { name: 'Petr', age: 20, prof: 'mechanic' },
-
-&nbsp;&nbsp;&nbsp;&nbsp; { name: 'Vova', age: 60, prof: 'pilot' },
-
-&nbsp;&nbsp; &#93;
-
-}
+``` {
+  list: [
+    { name: 'Petr', age: 20, prof: 'mechanic' },
+    { name: 'Vova', age: 60, prof: 'pilot' },
+  ]
+} ```
 
 ### Задание 3
 
