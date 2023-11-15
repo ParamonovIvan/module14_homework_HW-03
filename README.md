@@ -6,41 +6,41 @@
 
 XML
 
-``` list ```
+``` <list>
 
-  &nbsp;&nbsp; ``` student ```
+  &nbsp;&nbsp; <student>
   
-    &nbsp;&nbsp;&nbsp;&nbsp; ``` name lang="en" ```
+    &nbsp;&nbsp;&nbsp;&nbsp; <name lang="en">
     
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ``` first ```Ivan``` /first ```
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <first>Ivan</first>
       
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ``` second ```Ivanov``` /second ```
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <second>Ivanov</second>
       
-    &nbsp;&nbsp;&nbsp;&nbsp; ``` /name ```
+    &nbsp;&nbsp;&nbsp;&nbsp; </name>
     
-    &nbsp;&nbsp;&nbsp;&nbsp; ``` age ```35``` /age ```
+    &nbsp;&nbsp;&nbsp;&nbsp; <age>35</age>
     
-    &nbsp;&nbsp;&nbsp;&nbsp; ``` prof ```teacher``` /prof ```
+    &nbsp;&nbsp;&nbsp;&nbsp; <prof>teacher</prof>
     
-  &nbsp;&nbsp; ``` /student ```
+  &nbsp;&nbsp; </student>
   
-  &nbsp;&nbsp; ``` student ```
+  &nbsp;&nbsp; <student>
   
-    &nbsp;&nbsp;&nbsp;&nbsp;``` name lang="ru" ```
+    &nbsp;&nbsp;&nbsp;&nbsp; <name lang="ru">
     
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ``` first``` Петр``` /first ```
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <first>Петр</first>
       
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ``` second ```Петров``` /second ```
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <second>Петров</second>
       
-    &nbsp;&nbsp;&nbsp;&nbsp; ``` /name ```
+    &nbsp;&nbsp;&nbsp;&nbsp; </name>
     
-    &nbsp;&nbsp;&nbsp;&nbsp; ``` age ```58``` /age ```
+    &nbsp;&nbsp;&nbsp;&nbsp; <age>58</age>
     
-    &nbsp;&nbsp;&nbsp;&nbsp; ``` prof ```driver``` /prof ```
+    &nbsp;&nbsp;&nbsp;&nbsp; <prof>driver</prof>
     
-  &nbsp;&nbsp; ``` /student ```
+  &nbsp;&nbsp; </student>
   
-``` /list ```
+</list> ```
 
 JS-объект
 
