@@ -6,41 +6,41 @@
 
 XML
 
-&lt;list&gt;
+``` list ```
 
-  &nbsp;&nbsp;&lt;student&gt;
+  &nbsp;&nbsp; ``` student ```
   
-    &nbsp;&nbsp;&nbsp;&nbsp; &lt;name lang="en"&gt;
+    &nbsp;&nbsp;&nbsp;&nbsp; ``` name lang="en" ```
     
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;first&gt;Ivan&lt;/first&gt;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ``` first ```Ivan``` /first ```
       
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;second&gt;Ivanov&lt;/second&gt;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ``` second ```Ivanov``` /second ```
       
-    &nbsp;&nbsp;&nbsp;&nbsp; &lt;/name&gt;
+    &nbsp;&nbsp;&nbsp;&nbsp; ``` /name ```
     
-    &nbsp;&nbsp;&nbsp;&nbsp; &lt;age&gt;35&lt;/age&gt;
+    &nbsp;&nbsp;&nbsp;&nbsp; ``` age ```35``` /age ```
     
-    &nbsp;&nbsp;&nbsp;&nbsp; &lt;prof&gt;teacher&lt;/prof&gt;
+    &nbsp;&nbsp;&nbsp;&nbsp; ``` prof ```teacher``` /prof ```
     
-  &nbsp;&nbsp; &lt;/student&gt;
+  &nbsp;&nbsp; ``` /student ```
   
-  &nbsp;&nbsp; &lt;student&gt;
+  &nbsp;&nbsp; ``` student ```
   
-    &nbsp;&nbsp;&nbsp;&nbsp; &lt;name lang="ru"&gt;
+    &nbsp;&nbsp;&nbsp;&nbsp;``` name lang="ru" ```
     
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;first&gt;Петр&lt;/first&gt;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ``` first``` Петр``` /first ```
       
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;second&gt;Петров&lt;/second&gt;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ``` second ```Петров``` /second ```
       
-    &nbsp;&nbsp;&nbsp;&nbsp; &lt;/name&gt;
+    &nbsp;&nbsp;&nbsp;&nbsp; ``` /name ```
     
-    &nbsp;&nbsp;&nbsp;&nbsp; &lt;age>58&lt;/age&gt;
+    &nbsp;&nbsp;&nbsp;&nbsp; ``` age ```58``` /age ```
     
-    &nbsp;&nbsp;&nbsp;&nbsp; &lt;prof>driver&lt;/prof&gt;
+    &nbsp;&nbsp;&nbsp;&nbsp; ``` prof ```driver``` /prof ```
     
-  &nbsp;&nbsp; &lt;/student&gt;
+  &nbsp;&nbsp; ``` /student ```
   
-&lt;/list&gt;
+``` /list ```
 
 JS-объект
 
